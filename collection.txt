@@ -1,0 +1,12 @@
+<section class ="py-5 text-center container" style="margin-top: 30px;">
+    <div class="row py-lg-5">
+        <div class="col-lg-6 col-md-8 mx-auto">
+            <h1 class="fw-light">Best sellers</h1>
+            <p class="lead text-muted"> Our Most Populer Product Based On Sales. Updated Hourly.</p>
+            <p>
+                <a href="{% url 'login' %}" class="btn btn-primary my-2">Already  User</a>
+                <a href="{% url 'Register' %}" class="btn btn-secondary my-2">Register</a>
+            </p>
+        </div> 
+    </div>    
+</section>
